@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Chrome Pointertype Extension",
+    "description": "This extension helps chrome on surface(hub) to differentiate between mouse action and stylus action",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "incon.png",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapi.com"
+    ]
+
+}
